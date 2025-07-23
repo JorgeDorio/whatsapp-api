@@ -164,7 +164,7 @@ export class ConfigService {
   private envProcess(): Env {
     return {
       SERVER: {
-        PORT: Number.parseInt(process.env?.SERVER_PORT || '8084'),
+        PORT: Number.parseInt(process.env?.PORT || '8084'),
       },
       STORE: {
         CLEANING_INTERVAL: Number.isInteger(process.env?.STORE_CLEANING_TERMINAL)

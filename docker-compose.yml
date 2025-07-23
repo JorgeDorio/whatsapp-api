@@ -14,7 +14,7 @@ services:
     volumes:
       - instances_connecteds:/codechat/instances
     environment:
-      - SERVER_PORT=8084
+      - PORT=8084
       - SESSION_SECRET=W0NvZGVDaGF0XTpbU2Vzc
 
       - LOG_LEVEL=ERROR|WARN|INFO|DEBUG|LOG|VERBOSE|DARK
